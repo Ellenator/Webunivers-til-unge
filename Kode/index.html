@@ -11,16 +11,49 @@
 <body>
 
 <header>
-    <nav class="topnav">
-        <a href="#forside" class="active">FORSIDE</a>
-        <a href="#omos">OM OS</a>
-        <a href="#howtoadult">HOW TO ADULT</a>
-        <a href="#kollegier">KOLLEGIER</a>
-        <a href="#fælleskaber">FÆLLESSKABER</a>
-        <a href="#events">EVENTS</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
+    <nav>
+    <ul class="menudropdown">
+        <li><a href="#forside" class="active">FORSIDE</a></li>
+        <li><a href="#omos">OM OS</a></li>
+    <div class="dropdown">
+        <li><a href="#howtoadult">HOW TO ADULT</a></li>
+            <ul class="dropdowncontent">
+                <li><a href="#">Økonomi</a></li>
+                <li><a href="#">Indretning</a></li>
+                <li><a href="#">Rengøring</a></li>
+                <li><a href="#">Mæt for mønten</a></li>
+            </ul>
+    </div>
+
+    <div class="dropdown">
+        <li><a href="#kollegier">KOLLEGIER</a></li>
+            <ul class="dropdowncontent">
+                <li><a href="#">Lokation</a></li>
+                <li><a href="#">Kollegie</a></li>
+            </ul>
+    </div>
+
+    <div class="dropdown">
+        <li><a href="#fælleskaber">FÆLLESSKABER</a></li>
+            <ul class="dropdowncontent">
+                <li><a href="#">Q&A</a></li>
+                <li><a href="#">Bestyrelser og foreninger</a></li>
+                <li><a href="#">Roomies</a></li>
+                <li><a href="#">Mental sundhed</a></li>
+            </ul>
+    </div>
+
+    <div class="dropdown">
+        <li><a href="#events">EVENTS</a></li>
+            <ul class="dropdowncontent">
+                <li><a href="#">Fredagsbar</a></li>
+                <li><a href="#">Brætspil</a></li>
+                <li><a href="#">Film</a></li>
+                <li><a href="#">Fester</a></li>
+            </ul>
+    </div>
+
+    </ul>
     </nav>
 </header>
 

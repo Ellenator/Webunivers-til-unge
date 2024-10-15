@@ -19,15 +19,9 @@
 
 
  /* menu redigering */
- .topnav {
-    overflow: hidden;
-    min-width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 20px;
-  }
+
   
-  .topnav a {
+  .menudropdown a {
     text-align: center;
     display: inline;
     color: var(--roed);
@@ -41,15 +35,43 @@
   }
   
   /* Farveskift ved hover på menu */
-  .topnav a:hover {
+  .menudropdown a:hover {
     color: var(--orange);
   }
   
   /* Farveskift placering på den aktuelle menu */
-  .topnav a.active {
+  .menudropdown a.active {
     color: var(--orange);
   }
   
+  /* menu redigering */
+  .menudropdown li{
+    list-style-type: none;
+  }
+
+  .menudropdown {
+    overflow: hidden;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    padding-left: 0;
+  }
+
+/* Dropdown redigering */
+.dropdowncontent{
+  display: none;
+  padding-left: 10px;
+}
+
+.dropdown:hover .dropdowncontent{
+  display: block;
+  position: absolute;
+}
+
+.dropdowncontent a{
+  font-size: 18px;
+}
 
 /* Redigering af forsiden */
   .forside{
