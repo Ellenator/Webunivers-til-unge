@@ -1,0 +1,148 @@
+/* Google font(s) */
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap');
+
+/* Variabler */
+:root {
+    --beige: #FEFAE0;
+    --roed:#9A031E;
+    --orange:#E36414;
+    --gul:#F7B538;
+    --patrol:#0A5E5B;
+    --lilla: #5F0F40;
+  }
+ 
+ /* forside redigering */
+ body{
+    background-color: var(--beige); 
+    margin: 0;
+ }
+
+
+ /* menu redigering */
+ .topnav {
+    overflow: hidden;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    text-align: center;
+    display: inline;
+    color: var(--roed);
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+    font-family:'darker grotesque', sans-serif;
+    text-decoration: none;
+    font-weight:500;
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: var(--orange);
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    color: var(--orange);
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+
+  .forside{
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--lilla);
+    padding-right: 1000px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+#kollegieliv{
+    padding-top: 70px;
+    padding-left: 40px;
+    font-size: 150px;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 140px;
+}
+
+
+/* Grafik redigering */
+#grafik{
+    height: 500px;
+    width: auto;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+/* Q&A redigering */
+.delto{
+    background-color: var(--gul);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--orange);
+    font-size: 150px;
+}
+
+#spoergsmaal{
+margin-bottom: 0;
+margin-top: 0;
+}
+
+/* footer redigering */
+.footer{
+    font-family:'darker grotesque', sans-serif;
+    font-weight:lighter;
+    color:var(--beige);
+    background-color: var(--lilla);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 12px;
+    
+}
+
+.footer ul li:nth-child(1){
+    text-decoration: underline;
+    text-decoration-thickness: 0.1px;
+    font-size: 15px;
+}
+
+.footer ul li{
+    list-style-type: none;
+}
+
+
