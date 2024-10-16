@@ -78,7 +78,20 @@
   width: auto;
   margin-top: 100px;
   gap: 20px;
+
 }
+
+
+#pic1:hover, #pic2:hover, #pic3:hover, #pic4:hover {
+  transform: scale(1.5);
+}
+
+#pic1, #pic2, #pic3, #pic4{
+  transition: transform .6s;
+  width: 260px;
+  height: 260px;
+}
+
 
 /* tekst redigering */
 .overskrifter{
