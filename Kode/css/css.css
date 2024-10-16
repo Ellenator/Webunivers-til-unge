@@ -92,7 +92,7 @@
     height: 500px;
     width: auto;
     text-align: left;
-    padding-bottom: 20px;
+    padding-bottom: 70px;
 }
 
 /* Q&A redigering */
@@ -101,7 +101,7 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: var(--orange);
     font-size: 120px;
-    padding-top: 60px;
+    padding-top: 25px;
     padding-left: 40px;
 }
 
@@ -112,7 +112,7 @@ margin-left: 30px;
 }
 
 
-#emma{
+#emma, #simon, #adam, #rikke{
   font-family: darker grotesque, sans-serif;
   color: var(--roed);
   font-size: 20px;
@@ -122,7 +122,7 @@ margin-left: 30px;
 
 }
 
-#emmatekst{
+#emmatekst, #simontekst, #adamtekst, #rikketekst{
   font-family: darker grotesque, sans-serif;
   color: var(--patrol);
   font-size: 18px;
@@ -131,117 +131,44 @@ margin-left: 30px;
   padding-right: 10px;
   padding-top: 10px;
 }
-
-.emmaalt{
-  background-color: var(--beige);
-  padding-bottom: 120px;
-  margin-left: 80px;
-  margin-right: 20px;
-}
-
-#simon{
-  font-family: darker grotesque, sans-serif;
-  color: var(--roed);
-  font-size: 20px;
-  font-weight: 500;
-  padding-left: 10px;
-  padding-top: 10px;
-
-}
-
-#simontekst{
-  font-family: darker grotesque, sans-serif;
-  color: var(--patrol);
-  font-size: 18px;
-  font-weight: 400;
-  padding-left: 10px;
-  padding-top: 10px;
-}
-
-.simonalt{
-  background-color: var(--beige);
-  padding-bottom: 120px;
-  margin-right: 20px;
-}
-
-#adam{
-  font-family: darker grotesque, sans-serif;
-  color: var(--roed);
-  font-size: 20px;
-  font-weight: 500;
-  padding-left: 10px;
-  padding-top: 10px;
-
-}
-
-#adamtekst{
-  font-family: darker grotesque, sans-serif;
-  color: var(--patrol);
-  font-size: 18px;
-  font-weight: 400;
-  padding-left: 10px;
-  padding-top: 10px;
-}
-
-.adamalt{
-  background-color: var(--beige);
-  padding-bottom: 120px;
-  margin-right: 20px;
-  }
-
-  #rikke{
-    font-family: darker grotesque, sans-serif;
-    color: var(--roed);
-    font-size: 20px;
-    font-weight: 500;
-    padding-left: 10px;
-    padding-top: 10px;
-  
-  }
-  
-  #rikketekst{
-    font-family: darker grotesque, sans-serif;
-    color: var(--patrol);
-    font-size: 18px;
-    font-weight: 400;
-    padding-left: 10px;
-    padding-top: 10px;
-  }
-  
-  .rikkealt{
-    background-color: var(--beige);
-    padding-bottom: 120px;
-    margin-right: 80px;
-    }
-  
+ 
 
 .kasser{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  margin-right: 38px;
   margin-top: 50px;
+  background-color: var(--beige);
+  padding-bottom: 120px;
 }
   
 #svarbox{
-  width: 220px;
+  width: 96.2%;
   height: 100px;
   border: none;
   font-family: darker grotesque, sans-serif;
   font-size: 18px;
   color: var(--roed);
   font-weight: 500;
-  margin-left: 200px;
+  margin-left: 20px;
+  margin-top: 20px;
   padding-left: 12px;
-  background-color: var(--beige);
+  background-color: var(--gul);
+  outline: none;
 }
 
-#indsend{
+#svar{
   margin-left: 200px;
   font-family: darker grotesque, sans-serif;
   font-size: 18px;
-  color: var(--roed);
+  color: var(--beige);
   font-weight: 500;
   border: none;
-  background-color: var(--beige);
+  background-color: var(--roed);
+}
+
+.allesvarknapper{
+  display: flex;
 }
 
 
@@ -254,9 +181,8 @@ margin-left: 30px;
     display: flex;
     justify-content: space-between;
     padding-left: 30px;
-    padding-right: 30px;
+    padding-right: 80px;
     font-size: 12px;
-    
 }
 
 .footer ul li:nth-child(1){
@@ -267,4 +193,17 @@ margin-left: 30px;
 
 .footer ul li{
     list-style-type: none;
+}
+
+
+/* indsend knap redigering */
+
+#indsendknap{
+margin-left: 20px;
+font-family: darker grotesque, sans-serif;
+font-size: 18px;
+color: var(--beige);
+font-weight: 500;
+border: none;
+background-color: var(--roed);
 }
