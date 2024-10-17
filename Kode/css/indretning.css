@@ -102,7 +102,7 @@
 
 
 /* mellem overskifter redigering */
-#overskrifter{
+.overskrifter{
   font-family: darker grotesque, sans-serif;
   color: var(--roed);
   font-size: 18px;
@@ -111,7 +111,7 @@
   text-align: center
 }
 
-#broedtekst{
+.broedtekst{
   font-family: darker grotesque, sans-serif;
   color: var(--patrol);
   font-size: 16px;
