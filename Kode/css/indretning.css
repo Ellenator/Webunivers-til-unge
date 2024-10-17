@@ -19,8 +19,6 @@
 
 
  /* menu redigering */
-
-  
   .menudropdown a {
     text-align: center;
     display: inline;
@@ -31,14 +29,9 @@
     font-family:'darker grotesque', sans-serif;
     text-decoration: none;
     font-weight:500;
-    
   }
   
   .menudropdown a:hover {
-    color: var(--orange);
-  }
-  
-  .menudropdown a.active {
     color: var(--orange);
   }
   
@@ -69,16 +62,16 @@
   font-size: 18px;
 }
 
-
 /* overskift redigering */
 #indretningoverskift{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 200px;
+  font-size: 180px;
   color: var(--gul);
   text-align: center;
-  margin-top: 38px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
+
 
 /* billeder redigering */
 .billeder{
@@ -115,6 +108,7 @@
   font-size: 18px;
   font-weight: 600;
   margin-top: 20px;
+  text-align: center
 }
 
 #broedtekst{
@@ -124,7 +118,9 @@
   font-weight: 500;
   max-width: 250px;
   margin-bottom: 40px;
+  text-align: center;
 }
+
 
 /* footer redigering */
 .footer{

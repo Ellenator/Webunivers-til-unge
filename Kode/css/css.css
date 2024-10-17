@@ -19,7 +19,6 @@
 
 
  /* menu redigering */
-
   .menudropdown a {
     text-align: center;
     display: inline;
@@ -67,6 +66,12 @@
   font-size: 18px;
 }
 
+/* redigering af main */
+main{
+  width: 100%;
+  min-height: 100vh;
+}
+
 /* Redigering af forsiden */
   .forside{
     display: flex;
@@ -86,9 +91,7 @@
     line-height: 140px;
 }
 
-main{
-  min-height: 100vh;
-}
+
 
 /* Grafik redigering */
 #grafik{
@@ -197,13 +200,13 @@ margin-left: 30px;
   border: none;
   font-family: darker grotesque, sans-serif;
   font-size: 18px;
-  color: var(--roed);
-  font-weight: 500;
+  color: var(--patrol);
+  font-weight: 550;
   margin-left: 20px;
   margin-top: 20px;
   padding-left: 12px;
-  background-color: var(--gul);
-  outline: none;
+  background-color: var(--beige);
+  border: solid 1.5px var(--patrol);
   margin-bottom: 10px;
 }
 
