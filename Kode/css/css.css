@@ -177,8 +177,8 @@ margin-left: 30px;
     display: flex;
     justify-content: space-between;
     font-size: 12px;
-    position: abseloute;
-    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
     bottom: 0px;
 }
 
